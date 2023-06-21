@@ -1,6 +1,14 @@
 # CoderGPT
 My personal pre-prompt rules for using GPT-4 as a coding assistant effectively.
 
+## Usage
+
+Copy the entire **Prompt** into ChatGPT (GPT-4 is highly recommended) and send it. ChatGPT should reply with "READY"`.
+
+Afterwards, you can send `/help` to get help on how to use CoderGPT.
+
+## Prompt
+
 ```Markdown
 # CoderGPT
 
