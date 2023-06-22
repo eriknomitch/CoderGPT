@@ -19,8 +19,12 @@ There are plenty of projects that use vector stores to index your current reposi
 2. Copy and paste a file (e.g., a TypeScript React component) with: `/context add [filename] [full contents...]`. CoderGPT will reply that it has been "ingested" and will print its current understanding of your codebase which it'll deduce from the code.
 
 
-![CoderGPT Ingest Screenshot](./assets/ingest.png)
+![CoderGPT Ingest Screenshot](./assets/ingest.jpg)
 
+
+3. Ask CoderGPT to generate code - notice how instead of a generic component it has context to create a component that fits into the codebase seamlessly.
+
+![CoderGPT Generate Screenshot](./assets/create-component.jpg)
 
 ## Prompt
 
