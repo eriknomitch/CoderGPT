@@ -7,6 +7,17 @@ Copy the entire **Prompt** into ChatGPT (GPT-4 is highly recommended) and send i
 
 Afterwards, you can send `/help` to get help on how to use CoderGPT.
 
+---
+
+Since GPT isn't aware of the context of your codebase (libraries, languages, etc.) ChatGPT will output generic code. From my experience, it will likely not fit into your project unless you specify what you're using. That process, however, is tedious.
+
+There are plenty of projects that use vector stores to index your current repository to then get code output that is compatable but this suffices for most of my use cases.
+
+### Example
+
+1. Send the CoderGPT prompt.
+2. Copy and paste a file (e.g., a TypeScript React component) with: `/context add [filename] [full contents...]`. CoderGPT will reply that it has been "ingested" and will print its current understanding of your codebase which it'll deduce from the code.
+
 ## Prompt
 
 ```Markdown
