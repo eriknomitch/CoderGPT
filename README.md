@@ -16,7 +16,11 @@ There are plenty of projects that use vector stores to index your current reposi
 ### Example
 
 1. Send ChatGPT (GPT-4) the full [CoderGPT prompt](#Prompt).
-2. Copy and paste a file (e.g., a TypeScript React component) with: `/context add [filename] [full contents...]`. CoderGPT will reply that it has been "ingested" and will print its current understanding of your codebase which it'll deduce from the code.
+2. Copy and paste one or more files to CoderGPT - this will add context to follow-up chatting.
+
+`/context add [filename] [full contents...]`.
+
+CoderGPT will reply that it has been "ingested" and will print its current understanding of your codebase which it'll see from the code.
 
 ![CoderGPT Ingest Screenshot](./assets/ingest.jpg)
 
