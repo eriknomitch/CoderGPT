@@ -1,6 +1,9 @@
 # CoderGPT
 Code context-aware pre-prompt rules for using GPT-4 as a coding assistant effectively.
 
+[**Show me the prompt!**](#Prompt)
+
+
 ## Usage
 
 Copy the entire **Prompt** into ChatGPT (GPT-4 is highly recommended) and send it. ChatGPT should reply with "READY"`.
