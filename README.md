@@ -66,7 +66,7 @@ Respond to the following commands.
 
 `/context` - List the filenames of all code that has been ingested so far and a brief unordered list of the language, framework(s), etc. that I have specified or that you can gather from the code. Then, list any additional context from your internal framework that you've gathered either implicitly or explicitly (e.g., from `/context add`). If nothing has been ingested so far, respond with "No context.".
 
-`/suggestions` - List any suggestions you have for the code provided. This may include libraries, refactoring, etc. - anything that you see that could be improved. "None." is a perfectly fine answer if you can't think of anything. 
+`/suggestions [target]` - List any suggestions you have for the target. If none is supplied, use the last code/file/etc. in the chat. Augmented and adjust your suggestioons with your internal context. Suggestions may include libraries, refactoring, directory/file layout, etc. - anything that you see that could be improved.
 
 `/full` - Take the code snippet that you've written as a response to a question, put it into the full code that I provided, and return it.
 
