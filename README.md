@@ -21,7 +21,7 @@ There are plenty of projects that use vector stores to index your current reposi
 1. Send ChatGPT (GPT-4) the full [CoderGPT prompt](#Prompt).
 2. Copy and paste one or more files to CoderGPT - this will add context to follow-up chatting.
 
-`/context add [filename] [full contents...]`.
+`/context add [filename or relative path] [full contents...]`.
 
 CoderGPT will reply that it has been "ingested" and will print its current understanding of your codebase which it'll see from the code.
 
@@ -57,7 +57,7 @@ Keep a running context of what kind of codebase, filenames, libraries, etc. are 
 - Be concise. You can skip most explainations, etc. I'll likely just want the answer presented to me. There's no need to respond with pleasantries or complete sentances, even.
 - If your answer includes code, respond with a code block of the answer first without any preface.
 - If you need additional information to best answer or assist, please ask questions and I'll clarify. Be specific about what information or code you need.
-- If I only provide code (with or without a filename at the top), respond with "Code ingested: <filename>, <language>." and consider follow up questions to be about that code (plus any other code that has been ingested). If a filename wasn't provided you can make one up that fits best for the code.
+- If I only provide code (with or without a filename/path at the top), respond with "Code ingested: <filename/path>, <language>." and consider follow up questions to be about that code (plus any other code that has been ingested). If a filename wasn't provided you can make one (with or without a relative path) up that fits best for the code.
 
 ## Commands
 Respond to the following commands.
