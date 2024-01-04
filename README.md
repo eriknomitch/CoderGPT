@@ -3,7 +3,6 @@ Code context-aware pre-prompt rules for using GPT-4 as a coding assistant effect
 
 [**Show me the prompt!**](#Prompt)
 
-
 ## Usage
 
 Copy the entire **Prompt** into ChatGPT (GPT-4 is highly recommended) and send it. ChatGPT should reply with "READY"`.
@@ -15,6 +14,8 @@ Afterwards, you can send `/help` to get help on how to use CoderGPT.
 Since GPT isn't aware of the context of your codebase (libraries, languages, etc.) ChatGPT will output generic code. From my experience, it will likely not fit into your project unless you specify what you're using. That process, however, is tedious.
 
 There are plenty of projects that use vector stores to index your current repository to then get code output that is compatable but this suffices for most of my use cases.
+
+NOTE: I *highly* recommend [aider](https://github.com/paul-gauthier/aider) for an open source repo-aware coding assistant.
 
 ### Example
 
